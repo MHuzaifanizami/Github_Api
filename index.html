@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box-container">
+
+            <div class="search-box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Image">
+                </div>
+                <div>
+                    <input type="text" id="search" placeholder="Enter Your Name">
+                    <button class="search-btn" id="searchBtn">Search</button>
+                </div>
+
+            </div>
+            <hr />
+
+            <div class="detail">
+                <div class="image-box">
+                    <img id="profileImage" src="" alt="Image">
+                </div>
+                <div class="head">
+                    <h2 id="name">Profile Name</h2>
+                    <p >Profile Link : <span id="profileLink"></span></p>
+                    <p >Location : <span id="location"></span></p>
+                    <p>Created on : <span id="created"></span></p>
+
+                    <div class="repo-detail">
+                        <p><strong id="followers">00</strong> Followers</p>
+                        <p><strong id="following">00</strong> Following</p>
+                        <p><strong id="repo">00</strong> repos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
